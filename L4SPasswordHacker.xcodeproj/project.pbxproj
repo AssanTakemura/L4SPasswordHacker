@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1789DBB325009AE9003C0D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DBB225009AE9003C0D6B /* AppDelegate.swift */; };
+		1789DBB525009AE9003C0D6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DBB425009AE9003C0D6B /* SceneDelegate.swift */; };
+		1789DBB725009AE9003C0D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DBB625009AE9003C0D6B /* ViewController.swift */; };
+		1789DBBA25009AE9003C0D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DBB825009AE9003C0D6B /* Main.storyboard */; };
+		1789DBBC25009AEA003C0D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1789DBBB25009AEA003C0D6B /* Assets.xcassets */; };
+		1789DBBF25009AEA003C0D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DBBD25009AEA003C0D6B /* LaunchScreen.storyboard */; };
+		1789DBCA25009AEA003C0D6B /* L4SPasswordHackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DBC925009AEA003C0D6B /* L4SPasswordHackerTests.swift */; };
+		1789DBD525009AEA003C0D6B /* L4SPasswordHackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DBD425009AEA003C0D6B /* L4SPasswordHackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1789DBC625009AEA003C0D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1789DBA725009AE9003C0D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1789DBAE25009AE9003C0D6B;
+			remoteInfo = L4SPasswordHacker;
+		};
+		1789DBD125009AEA003C0D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1789DBA725009AE9003C0D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1789DBAE25009AE9003C0D6B;
+			remoteInfo = L4SPasswordHacker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1789DBAF25009AE9003C0D6B /* L4SPasswordHacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L4SPasswordHacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1789DBB225009AE9003C0D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1789DBB425009AE9003C0D6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1789DBB625009AE9003C0D6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1789DBB925009AE9003C0D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1789DBBB25009AEA003C0D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1789DBBE25009AEA003C0D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1789DBC025009AEA003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DBC525009AEA003C0D6B /* L4SPasswordHackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4SPasswordHackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1789DBC925009AEA003C0D6B /* L4SPasswordHackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4SPasswordHackerTests.swift; sourceTree = "<group>"; };
+		1789DBCB25009AEA003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DBD025009AEA003C0D6B /* L4SPasswordHackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4SPasswordHackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1789DBD425009AEA003C0D6B /* L4SPasswordHackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4SPasswordHackerUITests.swift; sourceTree = "<group>"; };
+		1789DBD625009AEA003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1789DBAC25009AE9003C0D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DBC225009AEA003C0D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DBCD25009AEA003C0D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1789DBA625009AE9003C0D6B = {
+			isa = PBXGroup;
+			children = (
+				1789DBB125009AE9003C0D6B /* L4SPasswordHacker */,
+				1789DBC825009AEA003C0D6B /* L4SPasswordHackerTests */,
+				1789DBD325009AEA003C0D6B /* L4SPasswordHackerUITests */,
+				1789DBB025009AE9003C0D6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1789DBB025009AE9003C0D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1789DBAF25009AE9003C0D6B /* L4SPasswordHacker.app */,
+				1789DBC525009AEA003C0D6B /* L4SPasswordHackerTests.xctest */,
+				1789DBD025009AEA003C0D6B /* L4SPasswordHackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1789DBB125009AE9003C0D6B /* L4SPasswordHacker */ = {
+			isa = PBXGroup;
+			children = (
+				1789DBB225009AE9003C0D6B /* AppDelegate.swift */,
+				1789DBB425009AE9003C0D6B /* SceneDelegate.swift */,
+				1789DBB625009AE9003C0D6B /* ViewController.swift */,
+				1789DBB825009AE9003C0D6B /* Main.storyboard */,
+				1789DBBB25009AEA003C0D6B /* Assets.xcassets */,
+				1789DBBD25009AEA003C0D6B /* LaunchScreen.storyboard */,
+				1789DBC025009AEA003C0D6B /* Info.plist */,
+			);
+			path = L4SPasswordHacker;
+			sourceTree = "<group>";
+		};
+		1789DBC825009AEA003C0D6B /* L4SPasswordHackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1789DBC925009AEA003C0D6B /* L4SPasswordHackerTests.swift */,
+				1789DBCB25009AEA003C0D6B /* Info.plist */,
+			);
+			path = L4SPasswordHackerTests;
+			sourceTree = "<group>";
+		};
+		1789DBD325009AEA003C0D6B /* L4SPasswordHackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1789DBD425009AEA003C0D6B /* L4SPasswordHackerUITests.swift */,
+				1789DBD625009AEA003C0D6B /* Info.plist */,
+			);
+			path = L4SPasswordHackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1789DBAE25009AE9003C0D6B /* L4SPasswordHacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1789DBD925009AEA003C0D6B /* Build configuration list for PBXNativeTarget "L4SPasswordHacker" */;
+			buildPhases = (
+				1789DBAB25009AE9003C0D6B /* Sources */,
+				1789DBAC25009AE9003C0D6B /* Frameworks */,
+				1789DBAD25009AE9003C0D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L4SPasswordHacker;
+			productName = L4SPasswordHacker;
+			productReference = 1789DBAF25009AE9003C0D6B /* L4SPasswordHacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1789DBC425009AEA003C0D6B /* L4SPasswordHackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1789DBDC25009AEA003C0D6B /* Build configuration list for PBXNativeTarget "L4SPasswordHackerTests" */;
+			buildPhases = (
+				1789DBC125009AEA003C0D6B /* Sources */,
+				1789DBC225009AEA003C0D6B /* Frameworks */,
+				1789DBC325009AEA003C0D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1789DBC725009AEA003C0D6B /* PBXTargetDependency */,
+			);
+			name = L4SPasswordHackerTests;
+			productName = L4SPasswordHackerTests;
+			productReference = 1789DBC525009AEA003C0D6B /* L4SPasswordHackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1789DBCF25009AEA003C0D6B /* L4SPasswordHackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1789DBDF25009AEA003C0D6B /* Build configuration list for PBXNativeTarget "L4SPasswordHackerUITests" */;
+			buildPhases = (
+				1789DBCC25009AEA003C0D6B /* Sources */,
+				1789DBCD25009AEA003C0D6B /* Frameworks */,
+				1789DBCE25009AEA003C0D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1789DBD225009AEA003C0D6B /* PBXTargetDependency */,
+			);
+			name = L4SPasswordHackerUITests;
+			productName = L4SPasswordHackerUITests;
+			productReference = 1789DBD025009AEA003C0D6B /* L4SPasswordHackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1789DBA725009AE9003C0D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Takemura assan";
+				TargetAttributes = {
+					1789DBAE25009AE9003C0D6B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					1789DBC425009AEA003C0D6B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 1789DBAE25009AE9003C0D6B;
+					};
+					1789DBCF25009AEA003C0D6B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 1789DBAE25009AE9003C0D6B;
+					};
+				};
+			};
+			buildConfigurationList = 1789DBAA25009AE9003C0D6B /* Build configuration list for PBXProject "L4SPasswordHacker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1789DBA625009AE9003C0D6B;
+			productRefGroup = 1789DBB025009AE9003C0D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1789DBAE25009AE9003C0D6B /* L4SPasswordHacker */,
+				1789DBC425009AEA003C0D6B /* L4SPasswordHackerTests */,
+				1789DBCF25009AEA003C0D6B /* L4SPasswordHackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1789DBAD25009AE9003C0D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DBBF25009AEA003C0D6B /* LaunchScreen.storyboard in Resources */,
+				1789DBBC25009AEA003C0D6B /* Assets.xcassets in Resources */,
+				1789DBBA25009AE9003C0D6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DBC325009AEA003C0D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DBCE25009AEA003C0D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1789DBAB25009AE9003C0D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DBB725009AE9003C0D6B /* ViewController.swift in Sources */,
+				1789DBB325009AE9003C0D6B /* AppDelegate.swift in Sources */,
+				1789DBB525009AE9003C0D6B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DBC125009AEA003C0D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DBCA25009AEA003C0D6B /* L4SPasswordHackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DBCC25009AEA003C0D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DBD525009AEA003C0D6B /* L4SPasswordHackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1789DBC725009AEA003C0D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1789DBAE25009AE9003C0D6B /* L4SPasswordHacker */;
+			targetProxy = 1789DBC625009AEA003C0D6B /* PBXContainerItemProxy */;
+		};
+		1789DBD225009AEA003C0D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1789DBAE25009AE9003C0D6B /* L4SPasswordHacker */;
+			targetProxy = 1789DBD125009AEA003C0D6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1789DBB825009AE9003C0D6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1789DBB925009AE9003C0D6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1789DBBD25009AEA003C0D6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1789DBBE25009AEA003C0D6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1789DBD725009AEA003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1789DBD825009AEA003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1789DBDA25009AEA003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SPasswordHacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SPasswordHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1789DBDB25009AEA003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SPasswordHacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SPasswordHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1789DBDD25009AEA003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SPasswordHackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SPasswordHackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L4SPasswordHacker.app/L4SPasswordHacker";
+			};
+			name = Debug;
+		};
+		1789DBDE25009AEA003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SPasswordHackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SPasswordHackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L4SPasswordHacker.app/L4SPasswordHacker";
+			};
+			name = Release;
+		};
+		1789DBE025009AEA003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SPasswordHackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SPasswordHackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = L4SPasswordHacker;
+			};
+			name = Debug;
+		};
+		1789DBE125009AEA003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SPasswordHackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SPasswordHackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = L4SPasswordHacker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1789DBAA25009AE9003C0D6B /* Build configuration list for PBXProject "L4SPasswordHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DBD725009AEA003C0D6B /* Debug */,
+				1789DBD825009AEA003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1789DBD925009AEA003C0D6B /* Build configuration list for PBXNativeTarget "L4SPasswordHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DBDA25009AEA003C0D6B /* Debug */,
+				1789DBDB25009AEA003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1789DBDC25009AEA003C0D6B /* Build configuration list for PBXNativeTarget "L4SPasswordHackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DBDD25009AEA003C0D6B /* Debug */,
+				1789DBDE25009AEA003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1789DBDF25009AEA003C0D6B /* Build configuration list for PBXNativeTarget "L4SPasswordHackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DBE025009AEA003C0D6B /* Debug */,
+				1789DBE125009AEA003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1789DBA725009AE9003C0D6B /* Project object */;
+}
